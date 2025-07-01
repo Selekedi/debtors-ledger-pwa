@@ -1,0 +1,19 @@
+.product-name {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #111827;
+}
+
+.product-meta {
+  font-size: 0.85rem;
+  color: #6b7280;
+  display: flex;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.product-meta .price {
+  margin-left: auto;
+  font-weight: 500;
+  color: #2563eb;
+}

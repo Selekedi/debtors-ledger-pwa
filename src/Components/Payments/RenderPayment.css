@@ -1,0 +1,42 @@
+.payment-card {
+    border: 2px solid #27AE60;
+    max-width: 300px;
+    padding: 16px;
+    margin: 8px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.payment-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);  
+}
+
+.payment-tag {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.payment-id {
+    margin-bottom: 4px;
+}
+
+.payment-card .payment-info {
+    display: flex;
+    gap: 16px;
+}
+
+.payment-card .payment-info .payment-info-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.status span.active {
+    color: #27AE60;
+}
+
+.status span.voided {
+    color:red
+}

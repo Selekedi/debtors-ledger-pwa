@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Style ONLY buttons without any class */
+button:not([class]) {
+  background-color: #2563eb;         /* Nice modern blue */
+  color: #ffffff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button:not([class]):hover {
+  background-color: #1e40af;         /* Slightly darker on hover */
+  transform: translateY(-1px);
+}
+
+button:not([class]):active {
+  background-color: #1e3a8a;         /* Deeper blue on click */
+  transform: translateY(0);
+}
+
+button:not([class]):disabled {
+  background-color: #94a3b8; /* Muted gray-blue */
+  color: #e2e8f0;           /* Light gray text */
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+  opacity: 0.6;
+}
+
+@media (max-width: 600px) {
+  button:not([class]) {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+  }
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

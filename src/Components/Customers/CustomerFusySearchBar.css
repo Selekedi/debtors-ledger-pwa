@@ -1,0 +1,23 @@
+.customer-result .customer-name {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #111827;
+}
+
+.customer-result .customer-meta {
+  display: flex;
+  gap: 12px;
+  margin-top: 4px;
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.customer-result .cell {
+  font-weight: 500;
+  color: #2563eb;
+}
+
+.customer-result .id {
+  font-family: monospace;
+}
+

@@ -1,0 +1,35 @@
+.customer-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 12px 0;
+  padding: 12px;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.balance {
+  font-weight: bold;
+}
+.balance.positive {
+  color: green;
+}
+.balance.negative {
+  color: red;
+}
+
+.details {
+  margin-top: 10px;
+}
+
+.actions button {
+  margin-right: 8px;
+}
+

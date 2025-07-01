@@ -1,0 +1,76 @@
+.selected-product-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+  font-family: system-ui, sans-serif;
+}
+
+.selected-product-details h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #111827;
+}
+
+.selected-product-details p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #374151;
+}
+
+.selected-product-details label {
+  font-weight: 500;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.selected-product-details input[type="number"] {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-size: 1rem;
+  width: 100px;
+}
+
+.selected-product-details .change-btn {
+  background: none;
+  border: none;
+  color: #2563eb;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 0;
+  align-self: flex-start;
+}
+
+.selected-product-details .add-btn {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+  align-self: flex-start;
+}
+
+.selected-product-details .add-btn:hover {
+  background-color: #1e40af;
+}
+
+
+.change-btn {
+  background: none;
+  border: none;
+  color: #2563eb;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 8px;
+  text-align: left;
+}
+

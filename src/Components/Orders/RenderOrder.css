@@ -1,0 +1,37 @@
+.order-card {
+    border: 2px solid #4A90E2;
+    width:300px;
+    max-width: 300px;
+    padding: 16px;
+    margin: 8px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    font-size:16px;
+}
+
+.order-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+
+.order-tag {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.order-id {
+    margin-bottom: 4px;
+}
+
+.order-card .order-info {
+    display: flex;
+    gap: 16px;
+}
+
+.order-card .order-info .order-info-group {
+    display: flex;
+    flex-direction: column;
+}

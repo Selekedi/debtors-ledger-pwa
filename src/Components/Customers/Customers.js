@@ -18,11 +18,12 @@ export default function Customers(){
     const totalItems = customers.length
     const totalPages = Math.ceil(totalItems/itemsPerPage)
     const [activeCustomers, setActiveCustomers] = useState(true)
+    const sortedByBalance = customers.sort((a,b) => b.balance - a.balance)
 
 
     const startIndex = (pagCurrentPage - 1) * itemsPerPage
     const endIndex = Math.min(totalItems,startIndex + itemsPerPage)
-    const customersToShow = customers.slice(startIndex,endIndex)
+    const customersToShow = sortedByBalance.slice(startIndex,endIndex)
     const navigate = useNavigate()
 
     useEffect(() => {

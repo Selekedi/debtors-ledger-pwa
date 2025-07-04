@@ -74,7 +74,7 @@ export default function Main(){
     return (
         <div>
             <AuditProvider>
-              <Router>
+              <Router basename= "debtors-ledger-pwa">
                 <Header ref={headerRef}/>
                 <main style={{padding:"24px",paddingTop:`${headerHeight + 10}px`}}>
                 <Routes>

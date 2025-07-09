@@ -25,6 +25,7 @@ import Payments from "../Payments/Payments";
 import Orders from "../Orders/Orders";
 import SplashScreen from "../Loaders/SplashScreen"
 import NotFound from "../NotFound/NotFound"
+import RedirectHandler from "../../utils/RedirectHandler"
 import { AuditProvider } from "../../contexts/AuditContext";
 
 
@@ -75,6 +76,7 @@ export default function Main(){
         <div>
             <AuditProvider>
               <Router basename= "debtors-ledger-pwa">
+              	<RedirectHandler/>
                 <Header ref={headerRef}/>
                 <main style={{padding:"24px",paddingTop:`${headerHeight + 10}px`}}>
                 <Routes>

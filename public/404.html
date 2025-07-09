@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script type="text/javascript">
+      // Capture the path from the broken URL and redirect to index.html with that info
+      var pathname = window.location.pathname;
+      var search = window.location.search;
+      var hash = window.location.hash;
+      var redirectUrl = '/debtors-ledger-pwa/?redirect=' + encodeURIComponent(pathname + search + hash);
+      window.location.replace(redirectUrl);
+    </script>
+  </head>
+  <body></body>
+</html>
+

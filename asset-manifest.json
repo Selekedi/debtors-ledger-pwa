@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/debtors-ledger-pwa/static/css/main.3b0bf5f0.css",
-    "main.js": "/debtors-ledger-pwa/static/js/main.395b4cbf.js",
+    "main.js": "/debtors-ledger-pwa/static/js/main.d9fb7ff3.js",
     "static/js/453.32a044c9.chunk.js": "/debtors-ledger-pwa/static/js/453.32a044c9.chunk.js",
     "static/media/logo.svg": "/debtors-ledger-pwa/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "service-worker.js": "/debtors-ledger-pwa/service-worker.js",
     "index.html": "/debtors-ledger-pwa/index.html",
     "main.3b0bf5f0.css.map": "/debtors-ledger-pwa/static/css/main.3b0bf5f0.css.map",
-    "main.395b4cbf.js.map": "/debtors-ledger-pwa/static/js/main.395b4cbf.js.map",
+    "main.d9fb7ff3.js.map": "/debtors-ledger-pwa/static/js/main.d9fb7ff3.js.map",
     "453.32a044c9.chunk.js.map": "/debtors-ledger-pwa/static/js/453.32a044c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b0bf5f0.css",
-    "static/js/main.395b4cbf.js"
+    "static/js/main.d9fb7ff3.js"
   ]
 }
